@@ -5,7 +5,7 @@ const Seller = (props) => {
   const { name, img, age, salary, role, specialist, country } = props.seller;
   return (
     <div className='col'>
-      <div className='card h-100 shadow border-0 p-3 card-bg'>
+      <div className='card h-100 shadow  p-3 card-bg'>
         <img src={img} className='card-img-top card-img' alt='...' />
         <div className='card-body'>
           <h5 className='card-title'>Name: {name}</h5>
