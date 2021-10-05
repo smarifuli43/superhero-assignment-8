@@ -9,16 +9,20 @@ const Market = () => {
       .then((data) => setSellers(data));
   }, []);
   return (
-    <div className='container'>
+    <div className='container mt-5'>
       <div className='row'>
         <div className='col-9'>
-          <div className='seller-container'>
+    <div className='seller-container row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4'>
             {sellers.map((seller) => (
-              <Seller seller={seller}></Seller>
+              <Seller
+                key={seller.id}
+                seller={seller}
+              ></Seller>
             ))}
+
           </div>
         </div>
-        <div className='col-3'></div>
+        <div className='col-3'> hello</div>
       </div>
     </div>
   );
