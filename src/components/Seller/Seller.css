@@ -5,3 +5,27 @@
   display: block;
   margin:auto;
 }
+.card-bg{
+   background: linear-gradient(
+    150deg,
+    #f8f7fc 35%,
+    #e3dcf5 100%
+  );
+}
+.btn{
+  background-color: #5C2EDE;
+  border: #5C2EDE;
+}
+.btn:focus{
+  background-color: #3c0ac5;
+}
+.btn:hover{
+  background-color: #5C2EDE;
+}
+.social-media i{
+  color: black;
+  transition: all .3s ease;
+}
+.social-media i:hover {
+color: #5C2EDE;
+}

@@ -1,0 +1,10 @@
+.cart{
+     background: linear-gradient(
+    150deg,
+    #f8f7fc 35%,
+    #f2effa 100%
+  );
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 14px rgba(77, 76, 76, 0.432);
+}
